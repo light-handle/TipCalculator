@@ -13,6 +13,7 @@
 		C6D6B3C21A86E031006592F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D6B3C11A86E031006592F3 /* Images.xcassets */; };
 		C6D6B3C51A86E031006592F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D6B3C31A86E031006592F3 /* LaunchScreen.xib */; };
 		C6D6B3D11A86E031006592F3 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D6B3D01A86E031006592F3 /* TipCalculatorTests.swift */; };
+		C6D6B3DB1A86E189006592F3 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D6B3DA1A86E189006592F3 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C6D6B3CA1A86E031006592F3 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D6B3CF1A86E031006592F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6D6B3D01A86E031006592F3 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		C6D6B3DA1A86E189006592F3 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C6D6B3B71A86E031006592F3 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				C6D6B3DA1A86E189006592F3 /* TipCalculatorModel.swift */,
 				C6D6B3BA1A86E031006592F3 /* AppDelegate.swift */,
 				C6D6B3BC1A86E031006592F3 /* ViewController.swift */,
 				C6D6B3BE1A86E031006592F3 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D6B3DB1A86E189006592F3 /* TipCalculatorModel.swift in Sources */,
 				C6D6B3BD1A86E031006592F3 /* ViewController.swift in Sources */,
 				C6D6B3BB1A86E031006592F3 /* AppDelegate.swift in Sources */,
 			);
